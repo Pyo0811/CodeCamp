@@ -11,6 +11,6 @@ while True :
     else :
         print(name + 'の誕生日は未登録です。')
         print('誕生日を入力してください:')
-        bday : input()
+        bday = input()
         birthdays[name] = bday
         print('誕生日データベースを変更しました。')
