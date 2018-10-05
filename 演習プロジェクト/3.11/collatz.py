@@ -1,17 +1,18 @@
 def collatz(number) :
     if (number % 2) == 0 :
-        return number / 2
+        return int(number / 2)
     else :
-        return 3 * number + 1
+        return int(3 * number + 1)
 
 
 print("整数を入力してください。")
+number = int(input())
 while True :
-    try :
-        number = int(input())
-        collatz_number = collatz(number)
-        if collatz_number == 1 :
-            print(collatz_number)
+    try :        
+        number = collatz(number)
+        print(number)
+        if number == 1 :
+            print(number)
             break
     except :
         print("整数値を入力するように示す")
