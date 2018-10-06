@@ -12,7 +12,6 @@ while True :
         number = collatz(number)
         print(number)
         if number == 1 :
-            print(number)
             break
     except :
         print("整数値を入力するように示す")

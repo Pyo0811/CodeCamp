@@ -3,7 +3,7 @@
 
 import requests, os, bs4
 
-url = "http:///xkcd.com"            # 開始URL
+url = "http://xkcd.com"            # 開始URL
 os.makedirs("xkcd", exist_ok=True)  # ./xkcdに保存する
 
 while not url.endswith("#") :
