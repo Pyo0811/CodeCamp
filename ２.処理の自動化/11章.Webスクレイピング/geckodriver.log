@@ -31,3 +31,144 @@ Child 15212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/s
 
 
 KLIB_SelfTest return : KLR_OK
+1538892662824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\samsung\\AppData\\Local\\Temp\\rust_mozprofile.ZxmbSXwDW9CY"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1538892669403	Marionette	INFO	Listening on port 7760
+1538892669604	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538892669690	Marionette	DEBUG	[6442450945] Frame script loaded
+1538892669726	Marionette	DEBUG	[6442450945] Frame script registered
+1538892669813	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538892670692	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1538892671432	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://inventwithpython.com/
+1538892675115	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://inventwithpython.com/
+[Parent 1540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Child 9188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Parent 1540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1538892676033	Marionette	INFO	Stopped listening on port 7760
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+1538892916208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\samsung\\AppData\\Local\\Temp\\rust_mozprofile.3a3h1qb0Klzd"
+1538892920070	Marionette	INFO	Listening on port 7829
+1538892920556	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538892920606	Marionette	DEBUG	[6442450945] Frame script loaded
+1538892920607	Marionette	DEBUG	[6442450945] Frame script registered
+1538892925093	Marionette	DEBUG	[2147483652] Frame script loaded
+1538892925132	Marionette	DEBUG	[6442450948] Frame script loaded
+1538892925147	Marionette	DEBUG	[2147483652] Frame script registered
+1538892925154	Marionette	DEBUG	[6442450948] Frame script registered
+[Parent 14752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Parent 14752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build[Child 6840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346/
+ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child1538892995582	Marionette	INFO	Stopped listening on port 7829
+[GPU 14544, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+1538893098928	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\samsung\\AppData\\Local\\Temp\\rust_mozprofile.yyjGZMQJcnSv"
+1538893102797	Marionette	INFO	Listening on port 7984
+1538893103282	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538893103328	Marionette	DEBUG	[6442450945] Frame script loaded
+1538893103329	Marionette	DEBUG	[6442450945] Frame script registered
+[Child 8872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build[/build/src/ipc/chromium/src/chrome/common/ipc_chaCnhniell_win.cc, line 346d
+ 2564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2564, Chrome_ChildThrea[Parent 17532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1538893105150	Marionette	INFO	Stopped listening on port 7984
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+1538893223208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\samsung\\AppData\\Local\\Temp\\rust_mozprofile.8e6ycKK2XQRC"
+1538893227049	Marionette	INFO	Listening on port 8028
+1538893227076	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538893227149	Marionette	DEBUG	[6442450945] Frame script loaded
+1538893227150	Marionette	DEBUG	[6442450945] Frame script registered
+1538893244297	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538893244756	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1538893245541	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://inventwithpython.com/
+1538893248532	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://inventwithpython.com/
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+[Parent 14224, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14224, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10428, Chrome_ChildThread] WARNING: pipe error: 109: fi[lChild 18876, Chrome_ChildThread] WARNeI NzG: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line :/build/build/1538893488633	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538893489587	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538893489758	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://login.yahoo.com/?.src=ym&.lang=ko-KR&.intl=kr&.done=https%3A%2F%2Fmail.yahoo.com%2Fd
+1538893492014	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://login.yahoo.com/?.src=ym&.lang=ko-KR&.intl=kr&.done=https%3A%2F%2Fmail.yahoo.com%2Fd
+1538893593027	Marionette	DEBUG	[6442450955] Frame script loaded
+1538893593059	Marionette	DEBUG	[6442450955] Frame script registered
+1538893593102	Marionette	DEBUG	[6442450958] Frame script loaded
+1538893593108	Marionette	DEBUG	[6442450958] Frame script registered
+1538893868990	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://login.yahoo.com/account/challenge/password?.src=ym&.lang=ko-KR&.intl=kr&authMechanism=primary&display=login&yid=not_my_real_email&done=https%3A%2F%2Fmail.yahoo.com%2Fd&sessionIndex=QQ--&acrumb=thbB6siF
+1538893869367	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://login.yahoo.com/account/challenge/password?.src=ym&.lang=ko-KR&.intl=kr&authMechanism=primary&display=login&yid=not_my_real_email&done=https%3A%2F%2Fmail.yahoo.com%2Fd&sessionIndex=QQ--&acrumb=thbB6siF
+1538893869368	Marionette	DEBUG	[6442450945] Received DOM event unload for https://login.yahoo.com/account/challenge/password?.src=ym&.lang=ko-KR&.intl=kr&authMechanism=primary&display=login&yid=not_my_real_email&done=https%3A%2F%2Fmail.yahoo.com%2Fd&sessionIndex=QQ--&acrumb=thbB6siF
+1538893869739	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1538893869740	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1538893869958	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com
+1538893870268	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com
+[Parent 15976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x17008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x170080,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x17008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x170080,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x170001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 151: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x170001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 353: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x46000F,name=PHal::Msg_ModifyWakeLock) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x170029,name=PBrowser::Msg_EnableDisableCommands) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x170015,name=PBrowser::Msg_NotifyIMEFocus) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x17002C,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x17002C,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+[Parent 15976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[
+###!!! [Child][MessageChannel] Error: (msgtype=0x170001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 151: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x170001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 353: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x170001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C000B,name=PCompositorWidget::Msg_UnobserveVsync) Channel error: cannot send/recv
+

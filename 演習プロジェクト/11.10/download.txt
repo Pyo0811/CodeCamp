@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- META -->
+<meta charset="utf-8">
+<meta name="Generator" content="XpressEngine">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- TITLE -->
+<title>고전게임 자료실</title>
+<!-- CSS -->
+<link rel="stylesheet" href="/common/css/xe.min.css?20150424023054" />
+<link rel="stylesheet" href="/common/js/plugins/ui/jquery-ui.min.css?20140410000355" />
+<link rel="stylesheet" href="/modules/board/skins/default/board.default.min.css?20140410000510" />
+<link rel="stylesheet" href="/layouts/silpirDownload/css/layout.css?20110716150729" />
+<link rel="stylesheet" href="/modules/editor/styles/default/style.css?20140410000519" />
+<link rel="stylesheet" href="/widgets/login_info/skins/silpir/css/white.css?20111218163110" />
+<link rel="stylesheet" href="/widgets/newest_comment/skins/silpir_comment/css/white.css?20110716150412" />
+<!-- JS -->
+<script>
+var current_url = "https://silpir.net/?mid=oldgame";
+var request_uri = "https://silpir.net/";
+var current_mid = "oldgame";
+var waiting_message = "서버에 요청 중입니다. 잠시만 기다려주세요.";
+var ssl_actions = new Array();
+var default_url = "http://silpir.net/";
+var enforce_ssl = true;</script>
+<!--[if lt IE 9]><script src="/common/js/jquery-1.x.min.js?20150424023054"></script>
+<![endif]--><!--[if gte IE 9]><!--><script src="/common/js/jquery.min.js?20150424023054"></script>
+<!--<![endif]--><script src="/common/js/x.min.js?20180202002037"></script>
+<script src="/common/js/xe.min.js?20180725234701"></script>
+<script src="/modules/board/tpl/js/board.min.js?20150424023103"></script>
+<script src="/silpirJs/gnb.js"></script>
+<script src="/widgets/login_info/skins/silpir/js/login.js?20111218161027"></script>
+<script src="https://cdn.jsdelivr.net/crypto-js/3.1.2/components/core-min.js"></script>
+<script src="https://cdn.jsdelivr.net/crypto-js/3.1.2/components/enc-base64-min.js"></script>
+<script src="https://cdn.jsdelivr.net/crypto-js/3.1.2/rollups/hmac-md5.js"></script>
+<script src="https://cdn.jsdelivr.net/crypto-js/3.1.2/rollups/hmac-sha1.js"></script>
+<script src="https://cdn.jsdelivr.net/crypto-js/3.1.2/rollups/hmac-sha256.js"></script>
+<script src="https://cdn.jsdelivr.net/crypto-js/3.1.2/rollups/hmac-sha512.js"></script>
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://silpir.net/oldgame/rss" /><link rel="alternate" type="application/atom+xml" title="Atom" href="https://silpir.net/oldgame/atom" /><!-- ICON -->
+<link rel="shortcut icon" href="https://silpir.net/files/attach/xeicon/favicon.ico" />
+<script>
+						if(!captchaTargetAct) {var captchaTargetAct = [];}
+						captchaTargetAct.push("procBoardInsertDocument","procBoardInsertComment","procIssuetrackerInsertIssue","procIssuetrackerInsertHistory","procTextyleInsertComment");
+						</script>
+
+<style> .xe_content { font-size:13px; }</style>
+<link rel="canonical" href="https://silpir.net/oldgame" />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://silpir.net/oldgame" />
+<meta property="og:title" content="고전게임 자료실" />
+	    <script> if(typeof CryptoJS === 'undefined'){document.write(decodeURI('%3Cscript%20src=%22https://silpir.net/addons/bot_challenge/backup.js%22%3E%3C/script%3E'));};</script><script>jQuery.ajax('https://silpir.net/', s = {data : jQuery.param({ 'act' : 'procBot_challengeTest', 'challenge' : CryptoJS.enc.Hex.stringify(CryptoJS.HmacSHA256("5960f34149872bb64b2df24d55bd9bb6538e13d41e6b0c1e3e060b48ad511b7a2f278510897d68","silpirnet"))}),dataType  : 'json',type : 'post',headers :{ 'X-CSRF-Protect' : 'v8ZROqezihYugGqs7w4U'}});</script><script>
+//<![CDATA[
+xe.current_lang = "ko";
+xe.cmd_find = "찾기";
+xe.cmd_cancel = "취소";
+xe.cmd_confirm = "확인";
+xe.msg_no_root = "루트는 선택 할 수 없습니다.";
+xe.msg_no_shortcut = "바로가기는 선택 할 수 없습니다.";
+xe.msg_select_menu = "대상 메뉴 선택";
+//]]>
+</script>
+</head>
+<body>
+<!-- // js 파일 import -->
+<!-- // css 파일 import -->
+<div id="warp">
+	<div id="header">
+		<h1 class="logo"><a href="/?mid=intro"><img src="/silpirImg/silpir_logo.gif" alt="실피르넷 로고" /></a></h1>
+		<div class="bar"><img src="/silpirImg/bar.gif" alt="" /></div>
+		<h2>주 메뉴</h2>
+		<ul class="gnb">
+		<li><a href="/?mid=community"><img src="/silpirImg/menu01.png" alt="커뮤니티" /></a></li>
+		<li><a href="/?mid=gameinfo"><img src="/silpirImg/menu02.png" alt="게임정보" /></a></li>
+		<li><a href="/?mid=pds"><img src="/silpirImg/menu03.png" alt="자료실" /></a></li>
+		<li><a href="/?mid=customer"><img src="/silpirImg/menu04.png" alt="고객센터" /></a></li>
+		</ul>
+		<div class="infoMenuBar"><img src="/silpirImg/infomenu_bar.gif" alt="" /></div>
+		<h2>보조 메뉴</h2>
+		<ul class="infoMenu">
+		<li><a href="/?mid=chat"><img src="/silpirImg/infomenu_chatroom.png" alt="채팅방" /></a></li>
+		<li><a href="/?mid=sitemap"><img src="/silpirImg/infomenu_sitemap.png" alt="사이트맵" /></a></li>
+		<li><a href="/?mid=about"><img src="/silpirImg/infomenu_about.png" alt="실피르넷 소개" /></a></li>
+		</ul>
+	</div>
+	<div id="contents">
+		<div class="subWrap">
+			<!-- 로그인 -->
+			<div class="silpirLogin">
+				<h2><img src="/silpirImg/silpirLogin_title.png" alt="" /></h2>
+				<div class="xe-widget-wrapper " style=""><div style="*zoom:1;padding:0px 0px 0px 0px !important;">    <form id="fo_login_widget" action="./" method="post"  class="login_white"><input type="hidden" name="error_return_url" value="/oldgame" /><input type="hidden" name="mid" value="oldgame" /><input type="hidden" name="vid" value="" /><input type="hidden" name="ruleset" value="@login" />
+	<fieldset>
+		<input type="hidden" name="act" value="procMemberLogin" />
+		<input type="hidden" name="success_return_url" value="/oldgame" />
+		<div class="idpwWrap">
+			<div class="idpw">
+				<input name="user_id" type="text" title="user id" />
+				<input name="password" type="password" title="password" />
+				<p class="keep">
+					<input type="checkbox" name="keep_signed" id="keep_signed" value="Y" />
+					<label for="keep_signed">로그인 유지</label>
+				</p>
+			</div>
+			<input type="image" src="/widgets/login_info/skins/silpir/images/white/buttonLogin.gif" alt="login" class="login" />					</div>
+		<p class="securitySignIn SSL">
+			<button type="button" class="text" onclick="toggleSecuritySignIn(); return false;">보안로그인 사용</button>
+		</p>		<p class="keep_msg">브라우저를 닫더라도 로그인이 계속 유지될 수 있습니다. 로그인 유지 기능을 사용할 경우 다음 접속부터는 로그인할 필요가 없습니다. 단, 게임방, 학교 등 공공장소에서 이용 시 개인정보가 유출될 수 있으니 꼭 로그아웃을 해주세요.</p>
+		<ul class="help">
+			<li><a href="https://silpir.net/index.php?mid=oldgame&amp;act=dispMemberSignUpForm">회원가입</a></li>
+			<li><a href="https://silpir.net/index.php?mid=oldgame&amp;act=dispMemberFindAccount">ID/PW 찾기</a></li>
+			<!--<li><a href="https://silpir.net/index.php?mid=oldgame&amp;act=dispMemberResendAuthMail">인증메일 재발송</a></li>-->
+		</ul>
+	</fieldset>
+</form> 
+</div></div>
+			</div>
+			<!-- //로그인 -->
+			<!-- 자료실 서브메뉴 -->
+			<div class="silpirSubmenu">
+				<h2><img src="/silpirImg/submenu_title_download.png" alt="" /></h2>
+				<ul>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=video"><img src="/silpirImg/snb_download13_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="동영상 게시판" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=cheat"><img src="/silpirImg/snb_download12_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="치트키 정보" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=patch"><img src="/silpirImg/snb_download1_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="패치 자료실" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=menual"><img src="/silpirImg/snb_download2_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="메뉴얼/공략집" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=editor"><img src="/silpirImg/snb_download3_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="에디터 자료실" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=save"><img src="/silpirImg/snb_download4_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="세이브 자료실" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=map"><img src="/silpirImg/snb_download5_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="맵파일 자료실" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=oldgame"><img src="/silpirImg/snb_download7_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="고전게임 자료실" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=emul"><img src="/silpirImg/snb_download8_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="에뮬게임 자료실" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=minigame"><img src="/silpirImg/snb_download11_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="미니게임 자료실" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=flash"><img src="/silpirImg/snb_download9_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="플래시 게임 자료실" /></a></li>
+				<li><img src="/silpirImg/submenu_bullet.png" alt="" /> <a href="/?mid=util"><img src="/silpirImg/snb_download10_off.png" onmouseover="img_download_snb(this,'on')" onmouseout="img_download_snb(this,'off')" alt="게임 유틸리티 자료실" /></a></li>
+				</ul>
+			</div>
+			<!-- //자료실 서브메뉴 -->
+			<!-- 댓글 -->
+			<div class="silpirComment">
+				<h2 class="hx"><img src="/silpirImg/icon_arrow_blue.gif" alt="" /> 최근 댓글</h2>
+				<div class="tx">
+				<div class="xe-widget-wrapper " style=""><div style="*zoom:1;padding:0px 0px 0px 0px !important;">        <div class="latest_comment_white">
+    <ul>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/1182214#comment_1185153">통파일 주소: https://drive.goog...</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/213929#comment_1184928">운영자분 사랑하고 존경합니다 ㅠㅠ</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/161953#comment_1184764">다음 디스크플러스 카페 가보세요</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/1182214#comment_1184707">최근 팡스카이에서 촉산협객전이...</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/1184053#comment_1184333">기운내시고용! 저도 간만에 들어...</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/1184053#comment_1184126">오랜만입니다. ㅜ 저는 용인과 서...</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/1183744#comment_1183994">케-땅 !! 하이</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/1183744#comment_1183877">우워~ 케이 멋있다~ 여행 잼나게해~</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/1183503#comment_1183874">ㅎ.ㅎ 시간이 너무 빨리 지나가네...</a>
+          </span>
+        </li>
+                <li>
+	            <span class="title">
+            <a href="https://silpir.net/1183216#comment_1183737">다들 비슷한가보네요 ㅎ 고전게임...</a>
+          </span>
+        </li>
+            </ul>
+</div>
+</div></div>
+				</div>
+			</div>
+			
+			<!-- 태그 -->
+			<!--
+			<div class="silpirTag">
+				<h2 class="hx"><img src="/silpirImg/icon_arrow_blue.gif" alt="" /> 최근 태그</h2>
+				<div class="tx">
+				</div>
+			</div>
+			-->
+			<!-- //태그 -->
+		</div>
+		<div class="contentsWrap">
+			    <div class="board">
+		<div class="board_header">
+		<h2><a href="https://silpir.net/oldgame"><img src="/files/attach/images/212795/title_oldgame.png" alt="고전게임 자료실" /></a></h2>			</div>	<div class="board_list" id="board_list">
+	<table width="100%" border="1" cellspacing="0" summary="List of Articles">
+		<thead>
+			<!-- LIST HEADER -->
+			<tr>
+								<th scope="col"><span>번호</span></th>																																																								<th scope="col" class="title"><span>제목</span></th>																																																								<th scope="col"><span>글쓴이</span></th>																																																																<th scope="col"><span><a href="https://silpir.net/index.php?mid=oldgame&amp;sort_index=regdate&amp;order_type=desc">날짜</a></span></th>																																																																<th scope="col"><span><a href="https://silpir.net/index.php?mid=oldgame&amp;sort_index=readed_count&amp;order_type=desc">조회 수</a></span></th>																																																																											</tr>
+			<!-- /LIST HEADER -->
+		</thead>
+				<tbody>
+			<!-- NOTICE -->
+						<!-- /NOTICE -->
+			<!-- LIST -->
+			<tr>
+								<td class="no">
+										422				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/267276">하급생</a>
+					<a href="https://silpir.net/oldgame/267276#comment" class="replyNum" title="Replies">[1]</a>										<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_69" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/45.gif" alt="[레벨:45]" title="포인트:20455point (22%), 레벨:45/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />태성</a></td>																																																																<td class="time">2012.09.17</td>																																																																<td class="readNum">39625</td>																																																																											</tr><tr>
+								<td class="no">
+										421				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241997">왕국의 군주</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.24</td>																																																																<td class="readNum">22696</td>																																																																											</tr><tr>
+								<td class="no">
+										420				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241818">울티마7 : 독사의 섬</a>
+					<a href="https://silpir.net/oldgame/241818#comment" class="replyNum" title="Replies">[1]</a>										<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.20</td>																																																																<td class="readNum">23398</td>																																																																											</tr><tr>
+								<td class="no">
+										419				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241802">다크 퀸 오브 크린</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.20</td>																																																																<td class="readNum">18326</td>																																																																											</tr><tr>
+								<td class="no">
+										418				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241796">스페이스 퀘스트5</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.20</td>																																																																<td class="readNum">17649</td>																																																																											</tr><tr>
+								<td class="no">
+										417				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241790">스페이스 퀘스트4</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.20</td>																																																																<td class="readNum">12897</td>																																																																											</tr><tr>
+								<td class="no">
+										416				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241784">스페이스 퀘스트3</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.20</td>																																																																<td class="readNum">11210</td>																																																																											</tr><tr>
+								<td class="no">
+										415				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241778">스페이스 퀘스트2</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.20</td>																																																																<td class="readNum">11186</td>																																																																											</tr><tr>
+								<td class="no">
+										414				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241773">스페이스 퀘스트</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.20</td>																																																																<td class="readNum">11905</td>																																																																											</tr><tr>
+								<td class="no">
+										413				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241764">세븐 시티 오브 골드</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.20</td>																																																																<td class="readNum">12331</td>																																																																											</tr><tr>
+								<td class="no">
+										412				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241604">아발론</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.19</td>																																																																<td class="readNum">13027</td>																																																																											</tr><tr>
+								<td class="no">
+										411				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241592">가디언 오브 파라다이스</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.19</td>																																																																<td class="readNum">13426</td>																																																																											</tr><tr>
+								<td class="no">
+										410				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241586">메테오</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.19</td>																																																																<td class="readNum">12207</td>																																																																											</tr><tr>
+								<td class="no">
+										409				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241579">알카노이드</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.19</td>																																																																<td class="readNum">13820</td>																																																																											</tr><tr>
+								<td class="no">
+										408				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241563">듀크 뉴켐2</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.18</td>																																																																<td class="readNum">13892</td>																																																																											</tr><tr>
+								<td class="no">
+										407				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241557">듀크 뉴켐</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.18</td>																																																																<td class="readNum">11822</td>																																																																											</tr><tr>
+								<td class="no">
+										406				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241551">줄2(Zool 2)</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.18</td>																																																																<td class="readNum">12654</td>																																																																											</tr><tr>
+								<td class="no">
+										405				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241545">사이버 도그스2</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.18</td>																																																																<td class="readNum">13739</td>																																																																											</tr><tr>
+								<td class="no">
+										404				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241534">갤러그</a>
+					<a href="https://silpir.net/oldgame/241534#comment" class="replyNum" title="Replies">[1]</a>										<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.18</td>																																																																<td class="readNum">14048</td>																																																																											</tr><tr>
+								<td class="no">
+										403				</td>																																																								<td class="title">
+					<a href="https://silpir.net/oldgame/241518">하프라이트</a>
+															<img src="https://silpir.net/modules/document/tpl/icons//file.gif" alt="file" title="file" style="margin-right:2px;" />				</td>																																																								<td class="author"><a href="#popup_menu_area" class="member_4" onclick="return false"><img src="https://silpir.net/modules/point/icons/silpir/72.gif" alt="[레벨:72]" title="포인트:52850point (69%), 레벨:72/99" class="xe_point_level_icon" style="vertical-align:middle;margin-right:3px;" />실피르넷</a></td>																																																																<td class="time">2011.05.18</td>																																																																<td class="readNum">13271</td>																																																																											</tr>			<!-- /LIST -->
+		</tbody>	</table>
+</div>
+<div class="list_footer">
+	<div class="pagination">
+		<a href="https://silpir.net/oldgame" class="direction prev"><span></span><span></span> 첫 페이지</a> 
+					<strong>1</strong> 
+								 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=2">2</a>					 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=3">3</a>					 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=4">4</a>					 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=5">5</a>					 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=6">6</a>					 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=7">7</a>					 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=8">8</a>					 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=9">9</a>					 
+			<a href="https://silpir.net/index.php?mid=oldgame&amp;page=10">10</a>				<a href="https://silpir.net/index.php?mid=oldgame&amp;page=22" class="direction next">끝 페이지 <span></span><span></span></a>
+	</div>	<div class="btnArea">
+		<a href="https://silpir.net/index.php?mid=oldgame&amp;act=dispBoardWrite" class="btn">쓰기</a>
+			</div>
+	<button type="button" class="bsToggle" title="검색">검색</button>
+	<form action="https://silpir.net/" method="get" onsubmit="return procFilter(this, search)" id="board_search" class="board_search" ><input type="hidden" name="act" value="" />
+		<input type="hidden" name="vid" value="" />
+		<input type="hidden" name="mid" value="oldgame" />
+		<input type="hidden" name="category" value="" />
+		<input type="text" name="search_keyword" value="" title="검색" class="iText" />
+		<select name="search_target">
+			<option value="title_content">제목+내용</option><option value="title">제목</option><option value="content">내용</option><option value="comment">댓글</option><option value="nick_name">닉네임</option><option value="user_id">아이디</option><option value="tag">태그</option><option value="extra_vars1">게임명</option><option value="extra_vars2">제작사</option><option value="extra_vars3">제작년도</option><option value="extra_vars4">장르</option>		</select>
+		<button type="submit" class="btn" onclick="xGetElementById('board_search').submit();return false;">검색</button>
+        	</form>	<a href="https://silpir.net/index.php?mid=oldgame&amp;act=dispBoardTagList" class="tagSearch" title="태그">태그</a>
+</div>
+	</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="fnb">
+		<a href="/?mid=service"><img src="/silpirImg/bottom_service.gif" alt="회원이용약관" /></a>
+		<img src="/silpirImg/bottom_bar.gif" alt="" />
+		<a href="/?mid=privacy"><img src="/silpirImg/bottom_privacy.gif" alt="개인정보취급방침" /></a>
+		<img src="/silpirImg/bottom_bar.gif" alt="" />
+		<a href="/?mid=about"><img src="/silpirImg/bottom_about.gif" alt="실피르넷 소개" /></a>
+		<img src="/silpirImg/bottom_bar.gif" alt="" />
+		<a href="/?mid=sitemap"><img src="/silpirImg/bottom_sitemap.gif" alt="사이트맵" /></a>
+		</div>
+		<div class="copyright">
+		<img src="/silpirImg/bottom_copyright.gif" alt="카피라이트" />
+		</div>
+	</div>
+</div><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41536626-1', 'silpir.net');
+  ga('send', 'pageview');
+
+</script><script>(function(a,b,c,d,e){function f(){var a=b.createElement("script");a.async=!0;a.src="//radar.cedexis.com/1/11475/radar.js";b.body.appendChild(a)}/\bMSIE 6/i.test(a.navigator.userAgent)||(a[c]?a[c](e,f,!1):a[d]&&a[d]("on"+e,f))})(window,document,"addEventListener","attachEvent","load");</script><!-- ETC -->
+<div class="wfsr"></div>
+<script src="/addons/captcha/captcha.min.js?20180202002510"></script><script src="/files/cache/js_filter_compiled/d046d1841b9c79c545b82d3be892699d.ko.compiled.js?20180725234908"></script><script src="/files/cache/js_filter_compiled/1bdc15d63816408b99f674eb6a6ffcea.ko.compiled.js?20180725234926"></script><script src="/files/cache/js_filter_compiled/9b007ee9f2af763bb3d35e4fb16498e9.ko.compiled.js?20180725234926"></script><script src="/common/js/plugins/ui/jquery-ui.min.js?20140410000355"></script><script src="/common/js/plugins/ui/jquery.ui.datepicker-ko.js?20140410000356"></script><script src="/addons/resize_image/js/resize_image.min.js?20180202002044"></script><script src="/modules/board/skins/default/board.default.min.js?20150424023103"></script><script src="/files/cache/js_filter_compiled/09464f4e403f3b783effd3ff4d0d15ef.ko.compiled.js?20180725234908"></script><script src="/files/cache/js_filter_compiled/5b8636adbcc251b81030ddc2f49286d1.ko.compiled.js?20180725234908"></script><script src="/files/cache/ruleset/748b1997e56ae5b7d338d7771f2ab7ea.ko.js?20180725234908"></script></body>
+</html>
