@@ -12,16 +12,15 @@ time.sleep(5)
 
 url = browser.current_url
 
-
-res = requests.get(url)
-res.raise_for_status()
-soup = bs4.BeautifulSoup(res.text, 'lxml')
-pic_elem = soup.select('.cards div a img')
-if pic_elem == [] :
-    print("画像が見つかりませんでした。")
-else :
-    for i in range(len(pic_elem)) :
-        pic_url = "http:" + pic_elem[i].get("src")
+while not url.endswith("#") :
+    res = requests.get(url)
+    res.raise_for_status()
+    soup = bs4.BeautifulSoup(res.text, 'lxml')
+    pic_elem = soup.select('#pbyDU img')
+    if pic_elem == [] :
+        print("画像が見つかりませんでした。")
+    else :
+        pic_url = "http:" + pic_elem[0].get("src")
         print("画像をダウンロード中 {}...".format(pic_url))
         res = requests.get(pic_url)
         res.raise_for_status()
